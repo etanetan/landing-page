@@ -1,13 +1,44 @@
 body {
-    font-family: 'Roboto';
+    font-family: Roboto;
+}
+
+.topsection {
+    background-color: #1F2937;
 }
 
 .topbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.toplinks, .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .toplinks {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.topmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.rightmain {
+    width: 300px;
 }
